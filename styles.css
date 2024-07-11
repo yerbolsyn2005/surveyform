@@ -1,0 +1,57 @@
+body {
+    padding: 20px 25%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: #3b3b4f;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    padding: 30px;
+    background-color: #1b1b23;
+}
+
+fieldset {
+    padding: 20px;
+    border: 0;
+}
+
+label, input, select, textarea {
+    display: block;
+    font-size: 18px;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline;
+    width: auto;
+    margin-bottom: -5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+#submit {
+    height: 50px;
+    background-color: #16f75a;
+    border: 0;
+}
+
+#submit:hover {
+    background-color: #14a841;
+}
